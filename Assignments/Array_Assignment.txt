@@ -1,1 +1,29 @@
 Array's
+
+An array is a variable that holdes multiple values, kind of like a collection.
+Although, unlike a variable it has a set type that cannot change. You cannot
+have a white egg in a group of brown eggs. Basically it allows you to bunch a
+lot of a type of variables together into a group.
+
+Examples
+
+public Brown[] eggs = new Brown [12];
+
+
+
+public string[] heros = new string [6];
+	heros[0] = "Batman";
+	heros[1] = "Superman";
+	heros[2] = "Wonder Woman";
+	heros[3] = "Green Lantern";
+	heros[4] = "Aqua Man";
+	heros[5] = "Green Arrow";
+
+public int[] money = new int [5]
+	int[0] = 100;
+	int[1] = 500;
+	int[2] = 1000;
+	int[3] = 1500;
+	int[4] = 2000;
+
+	print(money[2]);
