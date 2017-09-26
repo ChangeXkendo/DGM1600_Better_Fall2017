@@ -117,6 +117,8 @@ GameObject:
   m_Component:
   - component: {fileID: 925851260}
   - component: {fileID: 925851259}
+  - component: {fileID: 925851261}
+  - component: {fileID: 925851262}
   m_Layer: 0
   m_Name: Game_Manager
   m_TagString: Untagged
@@ -130,7 +132,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 925851258}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 752c0963cd183bf4ebd722a44b7f4dc1, type: 3}
   m_Name: 
@@ -155,6 +157,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &925851261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 925851258}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a35aa6232c009f44a7b74067da6485e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  townCenter: morgue
+--- !u!114 &925851262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 925851258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef8c5191d2e115244b8bdef62d8960f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bottles: 0
 --- !u!1 &1759418114
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +286,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1809317999}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
@@ -294,7 +320,7 @@ BoxCollider:
   m_GameObject: {fileID: 1809317999}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
