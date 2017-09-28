@@ -1,0 +1,46 @@
+A switch statement allows you to compare variables
+against different values.
+
+
+switch(townCenter){
+
+
+		case "main":
+
+			print("Welcome to Main Street!");
+
+		break;
+	
+	case "Balcksmith":
+
+			print("The Blacksmith grumbles as you pick through the sword bin.");
+
+		break;
+
+		case "bakery":
+
+			print("Mmmmmmmm hot buttery buns!");
+
+		break;
+
+		case "morgue":
+
+			print("I guess they took an arrow to the knee one too many time...");
+
+		break;
+
+		default:
+
+			print("I don't know what you are talking about!");
+
+		break;
+Switch(Armory){
+	case "sword":
+		print("Sharp! I like it!");
+	break;
+	case "mace":
+		print("Like to just get the bludgering in I see");
+	break;
+	default:
+		print("Sorry, I don't have that one");
+	break;
