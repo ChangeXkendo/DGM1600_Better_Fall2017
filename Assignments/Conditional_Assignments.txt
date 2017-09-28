@@ -1,0 +1,88 @@
+An if statment is a conditional phrase that allows you to 
+set up situations in which depending on whether it is true or not
+can either be one thing or another. Such as if the color of the light 
+is red then (option 1) will print, if not (option 2) will and so on.
+
+public string stopLight;
+
+if(stopLight == "Red"){
+
+
+	print("Stop! The light is red!");
+
+
+	}
+
+
+	else if (stopLight == "Yellow"){
+
+
+		print("Slow Down!");
+
+
+	}
+
+	else if (stopLight == "Green"){
+
+
+		print("Green means GO!");
+
+
+	}
+
+
+	else if (stopLight == "All Colors"){
+
+
+		print("Stop, drop, and roll");
+
+
+	
+	}
+
+
+	else{
+
+
+		print("I dont know what you mean!");
+
+
+	}
+
+
+
+
+public string shops = "Black Smith";
+
+	if(shops == "Open"){
+		print("What can I do for you?);
+	}
+	else(shops == "Closed"){
+		print("Please come back again");
+	}
+
+public string gems = "Loot";
+
+	if(gems == "Blue"){
+		print("JACKPOT!");
+
+			public int gold = 1000000000000000;
+
+	}
+	else(gems == "Red"){
+		print("LOSER!");
+			
+			public int gold = --10000;
+	
+	}
+
+public bool banana = True;
+
+	if(banana){
+		print("It is a fruit!");
+
+	}
+	else(!banana){
+		print("you are telling me it is a vegitible?!);
+	}
+	
