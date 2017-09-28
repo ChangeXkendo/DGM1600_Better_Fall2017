@@ -1,29 +1,54 @@
 Array's
 
-An array is a variable that holdes multiple values, kind of like a collection.
-Although, unlike a variable it has a set type that cannot change. You cannot
-have a white egg in a group of brown eggs. Basically it allows you to bunch a
-lot of a type of variables together into a group.
+An Array is a variable that hold multiple values but is locked to specific variable type,
+such as a int, or a double, etc...
 
-Examples
+public Brown [] eggs = new brown [12];
 
-public Brown[] eggs = new Brown [12];
+public string [] Heros = new string [5];
+	Heros[0] = "Batman"; 
+	Heros[1] = "Superman"; 
+	Heros[2] = "Wonderwoman";
+	Heros[3] = "Green Arrow";
+	Heros[4] = "Aqua Man";
 
+public int [] Loot = new int [3];
+	Loot[0] = 100;
+	Loot[1] = 300;
+	Loot[2] = 400;
 
+public string [] Loot2 = new string [3];
+	Loot2[0] = "Green Gem";
+	Loot2[1] = "Red Ruby";
+	Loot2[2] = "Blue Crystal";
 
-public string[] heros = new string [6];
-	heros[0] = "Batman";
-	heros[1] = "Superman";
-	heros[2] = "Wonder Woman";
-	heros[3] = "Green Lantern";
-	heros[4] = "Aqua Man";
-	heros[5] = "Green Arrow";
+public double [] Time = new double [2];
+	Time[0] = 1.35;
+	Time[1]	= 5.99;
 
-public int[] money = new int [5]
-	int[0] = 100;
-	int[1] = 500;
-	int[2] = 1000;
-	int[3] = 1500;
-	int[4] = 2000;
+public string [] Jedi = new string [3];
+	Jedi[0] = "Yoda"; 
+	Jedi[1] = "Obi-Wan";
+	Jedi[2]	= "Mace Windu";
 
-	print(money[2]);
+public string [] Sith = new string [2];
+	Sith[0] = "Darth Vader";
+	Sith[1] = "Darth Sideous";
+
+public float [] fuel = new float [2];
+	fuel[0] = 50.00f;
+	fuel[1]	= 150.00f;
+
+public sting [] factions = new string [12]
+	factions[0] = "The Human Empire";
+	factions[1] = "Sun-Born Rebellion";
+	factions[2] = "Astral";
+	factions[3] = "Paneda";
+	factions[4] = "Korral";
+	factions[5] = "Tondici";
+	factions[6] = "Mandrili";
+	factions[7] = "Fumol";
+	factions[8] = "Tolan";
+	factions[9] = "Zendillion";
+	factions[10] = "Takili";
+	factions[11] = "Chaon";	 											

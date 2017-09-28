@@ -1,0 +1,5 @@
+Switch
+
+A switch allows you to have different options and different outcomes for those options.
+You could use an if else statement for each one, but with a switch you can just have all of them in one.
+
