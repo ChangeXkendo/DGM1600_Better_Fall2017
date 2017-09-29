@@ -44,3 +44,21 @@ Switch(Armory){
 	default:
 		print("Sorry, I don't have that one");
 	break;
+
+switch(gems){
+	case "blue";
+		print("A symbol of calmness and serenity");
+	break;
+	case "green";
+		print("The symbol of harmony and one with self");
+	break;
+	case "yellow";
+		print("A symbol of courage and leadership");
+	break;
+	case "red";
+		print("The symbol of power and dominion");
+	break;
+	default:
+		print("You have not been deemed worthy, return when your trial is through.");
+	break;
+
