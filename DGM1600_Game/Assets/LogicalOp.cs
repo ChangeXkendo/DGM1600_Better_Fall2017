@@ -69,7 +69,7 @@ public class LogicalOp : MonoBehaviour {
 			}
 			else{
 				print("Am I on earth anymore?");
-			}
+			} 
 
 			
 
