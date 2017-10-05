@@ -15,7 +15,7 @@ public class LogicalOp : MonoBehaviour {
 
 	public string fruit = "Banana";
 	
-	public string vetgitable = "Tomato";
+	public string vegitable = "Tomato";
 
 
 
