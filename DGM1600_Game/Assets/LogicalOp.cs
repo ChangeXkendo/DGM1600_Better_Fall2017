@@ -13,6 +13,10 @@ public class LogicalOp : MonoBehaviour {
 
 	public string lightSide = "Obi-Wan";
 
+	public string fruit = "Banana";
+	
+	public string vetgitable = "Tomato";
+
 
 
 	// Use this for initialization
@@ -45,17 +49,29 @@ public class LogicalOp : MonoBehaviour {
 		// 	print("Han fired first!");
 		// }
 
-			if(lightSide == "Obi-Wan" || darkSide == "Jar Jar Binks"){
-				print("Meeeza Evil Bad Bad Sith Lordie");
+			// if(lightSide == "Obi-Wan" || darkSide == "Jar Jar Binks"){
+			// 	print("Meeeza Evil Bad Bad Sith Lordie");
 
-			}
-			else if(lightSide == "Bobba Fett" || darkSide == "Darth Mual"){
-				print("As you wish, my master.");
-			}
+			// }
+			// else if(lightSide == "Bobba Fett" || darkSide == "Darth Mual"){
+			// 	print("As you wish, my master.");
+			// }
 			
-			else{
-				print("Not the younglings!");
+			// else{
+			// 	print("Not the younglings!");
+			// }
+
+			if(fruit == "Banana" && vegitable == "Tomato"){
+				print ("The world is in order");
 			}
+			else if(fruit == "Banana" && vegitable == "Apple"){
+				print("Are you Insane!?");
+			}
+			else{
+				print("Am I on earth anymore?");
+			}
+
+			
 
 	 }
 	// Update is called once per frame
