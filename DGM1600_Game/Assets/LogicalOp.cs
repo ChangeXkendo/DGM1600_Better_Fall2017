@@ -17,6 +17,8 @@ public class LogicalOp : MonoBehaviour {
 	
 	public string vegitable = "Tomato";
 
+	public int gold = 100;
+
 
 
 	// Use this for initialization
@@ -61,15 +63,26 @@ public class LogicalOp : MonoBehaviour {
 			// 	print("Not the younglings!");
 			// }
 
-			if(fruit == "Banana" && vegitable == "Tomato"){
-				print ("The world is in order");
-			}
-			else if(fruit == "Banana" && vegitable == "Apple"){
-				print("Are you Insane!?");
-			}
-			else{
-				print("Am I on earth anymore?");
-			} 
+			// if(fruit == "Banana" && vegitable == "Tomato"){
+			// 	print ("The world is in order");
+			// }
+			// else if(fruit == "Banana" && vegitable == "Apple"){
+			// 	print("Are you Insane!?");
+			// }
+			// else{
+			// 	print("Am I on earth anymore?");
+			// } 
+
+		if(gold == 100){
+			print("Jackpot!");
+		}
+		else if(gold != 100){
+			print("Nope, Try again.");
+		}	
+		
+		else{
+			print("You Lose... NO Gold!");
+		}
 
 			
 
