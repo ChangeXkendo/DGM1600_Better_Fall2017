@@ -1,5 +1,5 @@
 
-//A funtion with a parameter is like a machine which is the function that produces different results dependent on what is put into the machine. The parameter is kind of like the thing that you run through the machine.
+//A scope is the information that is being run in a function, and only in that function or the functions you have designated. So the area that informations is coming out of.
 
 public class Functions : MonoBehaviour {
 

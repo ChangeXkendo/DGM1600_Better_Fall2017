@@ -1,6 +1,5 @@
 
-//A funtion with a parameter is like a machine which is the function that produces different results dependent on what is put into the machine. The parameter is kind of like the thing that you run through the machine.
-
+//A return is the code that makes it so that the information in a function comes out as the same type of information at the end. So if it is an int, it will end as an int.
 public class Functions : MonoBehaviour {
 
 	public void DoStuff(){
