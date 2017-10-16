@@ -23,3 +23,24 @@ public class FirstOrder :IComparable<FirstOrder> {
 	// Use this for initialization
 
 }
+public class Champion :IComparable<FirstOrder> {
+	public string name;
+	public int power;
+
+	public Champion(string newName, int newPower){
+		name = newName;
+
+		power = newPower;
+
+	}
+	public int CompareTo(Champion other){
+		if(other == null){
+			return 1;
+		}
+		return power - other.power;
+	}
+
+
+
+
+}

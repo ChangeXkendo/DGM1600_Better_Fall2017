@@ -27,8 +27,14 @@ public class ForEachList : MonoBehaviour {
 		List<Champion> heros = new List<Champion>();
 
 		heros.Add( new Champion("Albon", 6000));
-		heros.Add( new Champion("Fay",1000));
-		heros.Add( new Champion("Alei",500));
+		heros.Add( new Champion("Fay", 1000));
+		heros.Add( new Champion("Alei", 500));
+		heros.Add( new Champion("Lucien", 100000));
+		heros.Add( new Champion("Lok", 200000));
+
+		foreach(Champion person in heros){
+			print(person.name +" "+ person.power);
+		}
 		
 
 	
