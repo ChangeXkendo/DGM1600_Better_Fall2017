@@ -1,4 +1,4 @@
-//Lists are used to list variable types in a function
+//Foreach loops take the list in a function and list them in the order that you set in the perameter, until there is nothing esle to run in the scope.
 
 using System.Collections;
 using System.Collections.Generic;
